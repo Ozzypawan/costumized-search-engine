@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #10172A;
+    color: #8E9CB1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: #10172A;
+    color: #C3D1EC;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px 0;
+    transition: background-color 0.3s ease;
+}
+
+.header-container {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header h1:hover {
+    color: #ff6347;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+nav {
+    background: #10172A;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #C3D1EC;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 12px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #ff6347;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.search-section {
+    background: #10172A;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 60px 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.gcse-search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.gcse-search input.gsc-input {
+    width: 80%;
+    height: 50px;
+    font-size: 1.2rem;
+    padding: 0 15px;
+    border: 2px solid #1a73e8;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.gcse-search input.gsc-input:focus {
+    border-color: #ff6347;
+}
+
+.gcse-search button.gsc-search-button {
+    height: 54px;
+    font-size: 1.2rem;
+    background-color: #1a73e8;
+    color: #C3D1EC;
+    border: none;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.gcse-search button.gsc-search-button:hover {
+    background-color: #ff6347;
+}
+
+.search-note {
+    color: #8E9CB1;
+    font-size: 1.1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #C3D1EC;
+    transition: color 0.3s ease;
+}
+
+h2:hover {
+    color: #ff6347;
+}
+
+.box {
+    background-color: #10172A;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.card {
+    background: #10172A;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    margin: 0 0 10px;
+    color: #C3D1EC;
+    font-size: 1.8rem;
+    transition: color 0.3s ease;
+}
+
+.card h3:hover {
+    color: #ff6347;
+}
+
+.testimonial-slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.testimonial {
+    background: #10172A;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #8E9CB1;
+}
+
+.testimonial span {
+    font-weight: bold;
+    color: #C3D1EC;
+}
+
+#contribute table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#contribute table, th, td {
+    border: 1px solid #C3D1EC;
+}
+
+#contribute th, td {
+    padding: 12px;
+    text-align: left;
+    color: #C3D1EC;
+}
+
+#contribute tr:hover {
+    background-color: #1a73e8;
+}
+
+footer {
+    width: 100%;
+    background: #10172A;
+    color: #C3D1EC;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ff6347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

@@ -244,3 +244,11 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.gsc-input{
+    background-image: none !important;
+}
+
+tbody{
+color: black !important;
+}

@@ -13,7 +13,7 @@ Welcome to **Advanced Search**, a Google-powered search interface designed by **
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-repo/advanced-search.git
+    git clone https://github.com/advanced-search-engine.git
     ```
 2. Navigate to the project directory:
     ```bash
